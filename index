@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Еко-Клуб</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ласкаво просимо до Еко-Клубу!</h1>
+    <p>Це сайт нашого шкільного клубу, присвячений екологічним ініціативам та заходам.</p>
+    <p>Залишайтеся на зв'язку з нами: <a href="mailto:eco.club@example.com">eco.club@example.com</a></p>
+
+    <h2>Галерея наших подій</h2>
+    <div class="gallery">
+        <img src="https://st3.depositphotos.com/2000583/15580/i/450/depositphotos_155807440-stock-photo-ecology-concept-design-of-business.jpg" alt="Фото події 1">
+    </div>
+
+    <h2>Наші основні напрямки діяльності</h2>
+    <div class="activities">
+        <ul>
+            <li>Прибирання території школи та довкілля</li>
+            <li>Екологічні майстер-класи</li>
+            <li>Сортування та переробка сміття</li>
+            <li>Садівництво та озеленення шкільного двору</li>
+        </ul>
+    </div>
+
+    <h2>Зв'язатися з нами</h2>
+    <form>
+        <input type="text" name="name" placeholder="Ваше ім'я" required>
+        <input type="email" name="email" placeholder="Ваш email" required>
+        <textarea name="message" placeholder="Ваше повідомлення" rows="5" required></textarea>
+        <button type="submit">Відправити</button>
+    </form>
+</body>
+</html>
